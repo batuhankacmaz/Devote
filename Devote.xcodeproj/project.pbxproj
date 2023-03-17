@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C510827329B54259009248BA /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C510827229B54259009248BA /* HideKeyboardExtension.swift */; };
+		C5150D1729C50B8B00A3F39F /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D1629C50B8B00A3F39F /* BlankView.swift */; };
 		C516B02E29B49804000C6291 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516B02D29B49804000C6291 /* DevoteApp.swift */; };
 		C516B03029B49804000C6291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516B02F29B49804000C6291 /* ContentView.swift */; };
 		C516B03229B49805000C6291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C516B03129B49805000C6291 /* Assets.xcassets */; };
@@ -19,10 +20,12 @@
 		C516B04529B49A8C000C6291 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C516B04229B49A8C000C6291 /* sound-ding.mp3 */; };
 		C516B05329B4A53E000C6291 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516B05229B4A53E000C6291 /* Constant.swift */; };
 		C5C7BBA629C505F0003D8933 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7BBA529C505F0003D8933 /* BackgroundImageView.swift */; };
+		C5C7BBA829C50778003D8933 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C7BBA729C50778003D8933 /* NewTaskItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C510827229B54259009248BA /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		C5150D1629C50B8B00A3F39F /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		C516B02A29B49804000C6291 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C516B02D29B49804000C6291 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		C516B02F29B49804000C6291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C516B04D29B49B9E000C6291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C516B05229B4A53E000C6291 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C5C7BBA529C505F0003D8933 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		C5C7BBA729C50778003D8933 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			children = (
 				C516B02F29B49804000C6291 /* ContentView.swift */,
 				C5C7BBA529C505F0003D8933 /* BackgroundImageView.swift */,
+				C5C7BBA729C50778003D8933 /* NewTaskItemView.swift */,
+				C5150D1629C50B8B00A3F39F /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 				C5C7BBA629C505F0003D8933 /* BackgroundImageView.swift in Sources */,
 				C516B03029B49804000C6291 /* ContentView.swift in Sources */,
 				C510827329B54259009248BA /* HideKeyboardExtension.swift in Sources */,
+				C5150D1729C50B8B00A3F39F /* BlankView.swift in Sources */,
 				C516B05329B4A53E000C6291 /* Constant.swift in Sources */,
 				C516B03A29B49805000C6291 /* Devote.xcdatamodeld in Sources */,
 				C516B02E29B49804000C6291 /* DevoteApp.swift in Sources */,
+				C5C7BBA829C50778003D8933 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

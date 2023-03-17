@@ -108,7 +108,7 @@ struct ContentView: View {
                                     showNewTaskItem = false
                                 }
                             }
-                        NewTaskItemView(isShowing: $show)
+                        NewTaskItemView(isShowing: $showNewTaskItem)
                     }
                     
                 } //: ZSTACK
